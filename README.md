@@ -7,4 +7,4 @@ A fully responsive To-Do application with:
 - Clean Tailwind UI
 
 📂 Source: `todo-app/`  
-🚀 Live Demo: (add after deployment)
+🚀 Live Demo: https://hsb-ini-14.github.io/todo-app/
