@@ -30,7 +30,7 @@ const ReadTodo = ({ todos, setTodos }) => {
           {todos.map((todo) => (
             <li
               key={todo.id}
-              className="flex items-center gap-2 justify-between min-h-[40px]"
+              className="flex items-center gap-2 justify-between min-h-[44px] py-1"
             >
               <Completed id={todo.id} todos={todos} setTodos={setTodos} />
               {editingId === todo.id ? (
@@ -42,7 +42,7 @@ const ReadTodo = ({ todos, setTodos }) => {
                 />
               ) : (
                 <span
-                  className={`flex-1 mx-2 ${todo.isCompleted ? "line-through text-green-600" : ""}`}
+                  className={`flex-1 mx-2 text-sm sm:text-base ${todo.isCompleted ? "line-through text-green-600" : ""}`}
                 >
                   {todo.task}
                 </span>
